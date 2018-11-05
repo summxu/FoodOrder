@@ -1,0 +1,13 @@
+<!--pages/food/food.wxml-->
+<view class='content'>
+  <view class='fList' wx:for="{{fList}}" wx:key="{{index}}">
+    <view class='h2'>{{item.title}}</view>
+    <view class='food'>
+      <view bindtap='goInfo' class='fItem' wx:for="{{item.list}}" wx:key="{{index}}" data-fid='{{item._id}}'>
+        <image src='{{host}}{{item.img_url}}'></image>
+        <view class='title'>{{item.title}}</view>
+        <view class='pice'>￥{{item.price}}</view>
+      </view>
+    </view>
+  </view>
+</view>

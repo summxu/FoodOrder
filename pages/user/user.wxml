@@ -1,0 +1,4 @@
+<!--pages/user/user.wxml-->
+<wxs src="../../wxs/utils.wxs" module="utils" />
+<view>下面是现在时间</view>
+<view>{{utils.format(newDate)}}</view>

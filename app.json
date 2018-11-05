@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/food/food",
+    "pages/index/index",
+    "pages/info/info",
+    "pages/user/user"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "自助点餐系统",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "orange",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "主页",
+      "iconPath": "static/images/home1.png",
+      "selectedIconPath": "static/images/home2.png"
+    },
+    {
+      "pagePath": "pages/food/food",
+      "text": "点餐",
+      "iconPath": "static/images/news1.png",
+      "selectedIconPath": "static/images/news2.png"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "text": "用户",
+      "iconPath": "static/images/user1.png",
+      "selectedIconPath": "static/images/user2.png"
+    }]
+  }
+}
